@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interval</title>
+</head>
+<body>
+    <h1> wHat time is it? </h1>
+    <p id ="time"></p>
+  
+    <script>
+
+        let timeElement = document.querySelector('#time')
+
+        setInterval(() => {
+            let date = Date()
+          timeElement.innerHTML = date
+        }, 1000) //1000 miliseconds = 1 sec
+      
+    </script> 
+</body>
+</html>
